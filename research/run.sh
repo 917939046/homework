@@ -1,8 +1,7 @@
 #!/bin/bash
 # 查找脚本所在路径，并进入
 #DIR="$( cd "$( dirname "$0"  )" && pwd  )"
-DIR=$PWD
-cd $DIR
+DIR=$PW
 echo current dir is $PWD
 
 # 设置目录，避免module找不到的问题
